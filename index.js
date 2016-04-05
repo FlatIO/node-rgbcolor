@@ -1,6 +1,7 @@
 /*
-	Based on rgbcolor.js by Stoyan Stefanov <sstoo@gmail.com>
-	http://www.phpied.com/rgb-color-parser-in-javascript/
+  Based on rgbcolor.js by Stoyan Stefanov <sstoo@gmail.com>
+  @link   http://www.phpied.com/rgb-color-parser-in-javascript/
+  @license Use it if you like it
 */
 
 module.exports = function(color_string) {
