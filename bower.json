@@ -1,0 +1,6 @@
+{
+  "name": "rgbcolor",
+  "main": "index.js",
+  "version": "1.0.0",
+  "license": "Feel free to use the code for your own color picker tool or whatever you feel like."
+}
