@@ -4,7 +4,7 @@
   @license Use it if you like it
 */
 
-module.exports = function(color_string) {
+function RGBColor(color_string) {
     this.ok = false;
     this.alpha = 1.0;
 
@@ -252,4 +252,8 @@ module.exports = function(color_string) {
         if (b.length == 1) b = '0' + b;
         return '#' + r + g + b;
     }
+}
+
+if (typeof module !== 'undefined') {
+  module.exports = RGBColor;
 }
